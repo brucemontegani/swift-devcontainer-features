@@ -1,13 +1,14 @@
 {
     "name": "swift-format",
     "id": "swift-format",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A feature that installs Apple's swift-format",
     "options": {
         "version": {
             "type": "string",
             "proposals": [
-                "default"
+                "default",
+                "development"
             ],
             "default": "default",
             "description": "Version of swift-format"
