@@ -1,12 +1,37 @@
 {
-    "swift-format-default-version": {
-        "image": "swift:5.7",
+    "swift-format-default-version-6.0": {
+        "image": "swift:6.0",
+        "features": {
+            "swift-format": {}
+        }
+    },
+    "swift-format-default-version-5.10": {
+        "image": "swift:5.10",
+        "features": {
+            "swift-format": {}
+        }
+    },
+    "swift-format-default-version-5.8": {
+        "image": "swift:5.8",
+        "features": {
+            "swift-format": {}
+        }
+    },
+    "swift-format-explicit-version-5.8": {
+        "image": "swift:5.8",
         "features": {
             "swift-format": {
+                "version": "508.0.0"
             }
         }
     },
-    "swift-format-explicit-version": {
+    "swift-format-default-version-pre5.8": {
+        "image": "swift:5.7",
+        "features": {
+            "swift-format": {}
+        }
+    },
+    "swift-format-explicit-version-pre5.8": {
         "image": "swift:5.7",
         "features": {
             "swift-format": {

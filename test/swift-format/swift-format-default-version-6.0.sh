@@ -10,7 +10,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "Check SwiftFormat version" bash -c "swift-format --version | grep 0.50700.0"
+check "Check SwiftFormat version is 600.x.x" bash -c "swift-format --version | grep 600."
 
 # Report results
 # If any of the checks above exited with a non-zero exit code, the test will fail.
