@@ -4,6 +4,10 @@ The swift-format feature selects the version of swift-format based off what vers
 
 | Swift Version | `swift-format` Tags |
 |:--------------|:--------------------|
+| Swift 6.0     | `600.*.*`           |
+| Swift 5.10    | `510.*.*`           |
+| Swift 5.9     | `509.*.*`           |
+| Swift 5.8     | `508.*.*`           |
 | Swift 5.7     | `0.50700.*`         |
 | Swift 5.6     | `0.50600.*`         |
 | Swift 5.5     | `0.50500.*`         |
